@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Trupti Shop App</string>
+    <string name="hours">10:30AM to 10PM -- ALL DAYS</string>
+    <string name="item_served">The Trupti Shop is well known for the best kind of varieties in Lassi, Faluda, Ice-Creams, and Chocolate-Shakes.</string>
+    <string name="phone_number">079 2324 2404</string>
+    <string name="place_address">plot No - 381, sector-16, Gandhinagar, Gujarat</string>
+    <string name="items_served_title">Items Served:</string>
+    <string name="phone_title">Phone:</string>
+</resources>

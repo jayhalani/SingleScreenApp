@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.jay.singlescreenapp.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorOrange"
+        android:padding="16dp"
+        android:text="Trupti Ice Cream Shop"
+        android:textColor="@color/colorWhite"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:contentDescription=""
+        android:scaleType="centerCrop"
+        android:src="@drawable/icecreamimage"
+        tools:ignore="ContentDescription" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout style="@style/childLinearLayoutStyle">
+
+                <TextView
+                    style="@style/titleTextViewStyle"
+                    android:text="Address:"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    style="@style/secondaryTextViewStyle"
+                    android:text="@string/place_address" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/childLinearLayoutStyle">
+
+                <TextView
+                    style="@style/titleTextViewStyle"
+                    android:text="@string/phone_title" />
+
+                <TextView
+                    style="@style/secondaryTextViewStyle"
+                    android:text="@string/phone_number" />
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/childLinearLayoutStyle">
+
+                <TextView
+                    style="@style/titleTextViewStyle"
+                    android:text="@string/items_served_title" />
+
+                <TextView
+                    style="@style/secondaryTextViewStyle"
+                    android:text="@string/item_served" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/childLinearLayoutStyle"
+                android:paddingBottom="16dp">
+
+                <TextView
+                    style="@style/titleTextViewStyle"
+                    android:text="Hours:"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    style="@style/secondaryTextViewStyle"
+                    android:text="@string/hours" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
